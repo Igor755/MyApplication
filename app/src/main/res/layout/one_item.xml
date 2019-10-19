@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/photofilm"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/ic_launcher_background"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/name_film"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photofilm"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:text="label"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/country_film"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_film"
+        android:layout_marginTop="36dp"
+        android:text="label"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name_film"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/year_film"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/country_film"
+        android:layout_marginTop="72dp"
+        android:text="label"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name_film"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/age_film"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/year_film"
+        android:layout_marginTop="100dp"
+        android:text="label"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.914"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name_film"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
